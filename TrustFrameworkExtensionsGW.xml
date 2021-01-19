@@ -17,13 +17,6 @@
   <BuildingBlocks>
     <ClaimsSchema>
 
-    <!--  HCK experiment to get claim to come through
--->      <ClaimType Id="givenName">
-        <DisplayName>Given Name</DisplayName>
-        <DataType>string</DataType>
-        <UserHelpText/>
-      </ClaimType>
-
       <!--  For Application In{your_organization}ghts logging     -->
       <ClaimType Id="EventType">
         <DisplayName>Event type</DisplayName>
